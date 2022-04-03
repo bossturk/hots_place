@@ -13,8 +13,8 @@ if (window.top !== window.self) {
             document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://i.imgur.com/sfRm0vo.png";
-            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1999px;height: 999px;";
+            i.src = "https://i.imgur.com/5Lm4sRd.png";
+            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1999px;height: 1999px;";
             console.log(i);
             return i;
         })())
@@ -22,3 +22,4 @@ if (window.top !== window.self) {
     }, false);
 
 }
+
