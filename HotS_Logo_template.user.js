@@ -21,9 +21,9 @@
 //TODO: When changing the version, please do change the version in the userscript information as well as the version in version.json
 const VERSION = "2";
 
-const updateURL = "https://github.com/CptDinosaur/hots_place/raw/main/HotS_Logo_template.user.js";
+const updateURL = "https://raw.githubusercontent.com/CptDinosaur/hots_place/main/HotS_Logo_template.user.js";
 const overlayLink = "https://i.imgur.com/F93lZW6.png";
-const versionLink = "https://github.com/CptDinosaur/hots_place/raw/main/version.json";
+const versionLink = "https://raw.githubusercontent.com/CptDinosaur/hots_place/main/version.json";
 
 var NOTIFIED = false;
 var START_NOTIFIED = false;
