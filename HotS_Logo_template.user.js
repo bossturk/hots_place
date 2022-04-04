@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Hots/Wow logo template
 // @namespace    https://github.com/CptDinosaur/hots_place
-// @version     2
+// @version     1
 // @description  Hots/Wow logo template
 // @author       Cpt.Dinosaur
 // @match        https://hot-potato.reddit.com/embed*
@@ -19,10 +19,10 @@
 
 
 //TODO: When changing the version, please do change the version in the userscript information as well as the version in version.json
-const VERSION = "2";
+const VERSION = "1";
 
 const updateURL = "https://raw.githubusercontent.com/CptDinosaur/hots_place/main/HotS_Logo_template.user.js";
-const overlayLink = "https://i.imgur.com/F93lZW6.png";
+const overlayLink = "https://raw.githubusercontent.com/CptDinosaur/hots_place/main/wow-hots.png";
 const versionLink = "https://raw.githubusercontent.com/CptDinosaur/hots_place/main/version.json";
 
 var NOTIFIED = false;
